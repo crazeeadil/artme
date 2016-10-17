@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mojojojodevlabs.artme">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name="com.mojojojodevlabs.artme.Supplier"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name="com.mojojojodevlabs.artme.activities.SplashActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.mojojojodevlabs.artme.activities.MainActivity"
+            android:label="@string/app_name"/>
+
+        <activity
+            android:name="com.mojojojodevlabs.artme.activities.WallActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="com.mojojojodevlabs.artme.activities.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mojojojodevlabs.artme.activities.MainActivity" />
+        </activity>
+
+        <activity
+            android:name="com.mojojojodevlabs.artme.activities.SearchActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:parentActivityName="com.mojojojodevlabs.artme.activities.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mojojojodevlabs.artme.activities.MainActivity" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+                <action android:name="android.intent.action.VIEW"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.mojojojodevlabs.artme.activities.AboutActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="com.mojojojodevlabs.artme.activities.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mojojojodevlabs.artme.activities.MainActivity" />
+        </activity>
+
+        <activity android:name="com.mojojojodevlabs.artme.activities.FirstTime"/>
+
+        <service android:name="com.mojojojodevlabs.artme.MuzeiArtSource"
+            android:icon="@drawable/muzeiartwork"
+            android:label="@string/app_name"
+            android:description="@string/description">
+            <intent-filter>
+                <action android:name="com.google.android.apps.muzei.api.MuzeiArtSource" />
+            </intent-filter>
+            <meta-data android:name="color" android:value="#673AB7" />
+        </service>
+    </application>
+
+</manifest>

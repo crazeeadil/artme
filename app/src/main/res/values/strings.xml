@@ -1,0 +1,208 @@
+<resources>
+    <!-- App name -->
+    <string name="app_name">ArtMe</string>
+
+    <!-- description -->
+    <string name="app_desc">A collection of wallpapers made by MojoJojo!</string>
+
+    <!-- Slightly longer description -->
+    <string name="description">Free wallpapers, made with love, for everyone.</string>
+
+    <!-- Activity/fragment/drawer item names -->
+    <string name="title_home">Home</string>
+    <string name="title_wallpapers">Wallpapers</string>
+    <string name="title_favorites">Favorites</string>
+    <string name="title_about">About</string>
+    <string name="title_search">Search</string>
+
+    <string name="featured">Featured</string>
+    <string name="all">All</string>
+
+    <!-- Toast messages -->
+    <string name="set_wallpaper_success">Wallpaper set :)</string>
+    <string name="set_wallpaper_failed">Wallpaper not set :(</string>
+    <string name="download_failed">Download failed :(</string>
+
+    <!-- Dialogs -->
+    <string name="credit_required">Credit Required</string>
+    <string name="credit_required_msg">The author has requested that credit be provided for this wallpaper. Please be considerate when sharing to external sources.</string>
+    <string name="download_complete">Download Complete</string>
+    <string name="download_complete_msg">Your wallpaper has been downloaded.</string>
+
+    <!-- Shows as a popup whenever the version number in app/build.gradle is changed -->
+    <string name="changelog">- Reached 310+ wallpapers.
+    </string>
+
+    <!-- Specify whether to show the contributors in the about section -->
+    <bool name="show_contributors">false</bool>
+
+    <string name="contributors">Contributors:</string>
+
+    <!-- Names for the different sections -->
+    <string-array name="people_names" formatted="false">
+        <item>Material</item>
+        <item>Minimal</item>
+        <item>Flat</item>
+        <item>Abstract</item>
+        <item>Superhero</item>
+        <item>Photography</item>
+        <item>Misc</item>
+    </string-array>
+
+    <!-- Icons for the different sections -->
+    <string-array name="people_icons" formatted="false">
+        <item>https://raw.githubusercontent.com/Mojojojolabs/Wordings/master/material.png</item>
+        <item>https://raw.githubusercontent.com/Mojojojolabs/Wordings/master/minimal.png</item>
+        <item>https://raw.githubusercontent.com/Mojojojolabs/Wordings/master/flat.png</item>
+        <item>https://raw.githubusercontent.com/Mojojojolabs/Wordings/master/abstract.png</item>
+        <item>https://raw.githubusercontent.com/Mojojojolabs/Wordings/master/superhero.png</item>
+        <item>https://raw.githubusercontent.com/Mojojojolabs/Wordings/master/photography.png</item>
+        <item>https://raw.githubusercontent.com/Mojojojolabs/Wordings/master/misc.png</item>
+    </string-array>
+
+    <!-- Descriptions for the different sections -->
+    <string-array name="people_desc" formatted="false">
+        <item>The maker of this app! No credit is required for any of my wallpapers ;)</item>
+        <item>A high school student who makes awesome free wallpapers that anyone can use as long as they give credit.</item>
+        <item>A google plus user who makes icons for his icon pack Colorcons in his spare time and is currently making an amazing new icon for this app! (not finished yet) He also donated a few wallpapers.</item>
+        <item>An enthusiastic material-design lover from Slovenia that gave all his wallpapers (there\'s a lot) to this app. He posts them (and more) to his blog on blogspot. He also made (most of) the images used in the tutorial.</item>
+        <item>A young designer and developer that likes to make wallpapers in his free time.</item>
+        <item>A designer that loves making minimal and material design wallpapers.</item>
+        <item>An android lover that proudly roots and flashes all his devices.</item>
+    </string-array>
+
+    <!-- Urls for the different sections (optional) -->
+    <string-array name="people_urls" formatted="false">
+        <item>https://theandroidmaster.github.io</item>
+        <item>https://plus.google.com/+BriceSeibert23</item>
+        <item>https://plus.google.com/101325935187431392674</item>
+        <item>https://zheanoblog.eu/about/</item>
+        <item>https://plus.google.com/+GregIvesgrives</item>
+        <item>https://plus.google.com/+RadekxmenB</item>
+        <item>https://plus.google.com/+ColinSimone</item>
+    </string-array>
+
+    <!-- Specify the name arrays for the different sections -->
+    <string-array name="wp_names">
+        <item>@array/name_material</item>
+        <item>@array/name_minimal</item>
+        <item>@array/name_flat</item>
+        <item>@array/name_abstract</item>
+        <item>@array/name_superhero</item>
+        <item>@array/name_photography</item>
+        <item>@array/name_misc</item>
+    </string-array>
+
+    <!-- Specify the url arrays for the different sections -->
+    <string-array name="wp_urls">
+        <item>@array/url_material</item>
+        <item>@array/url_minimal</item>
+        <item>@array/url_flat</item>
+        <item>@array/url_abstract</item>
+        <item>@array/url_superhero</item>
+        <item>@array/url_photography</item>
+        <item>@array/url_misc</item>
+    </string-array>
+
+    <!-- A "*" after the wallpaper name indicates that credit is required -->
+    <!-- This will make the download/share buttons show a dialog requesting that the user gives credit to the author -->
+    <string-array name="name_material" formatted="false">
+        <item>Envy HoneyBlue</item>
+        <item>Envy Lollipop</item>
+
+    </string-array>
+
+    <string-array name="url_material" formatted="false">
+        <item>https://raw.githubusercontent.com/Mojojojolabs/material2/master/material%20(32).jpg</item>
+        <item>https://raw.githubusercontent.com/Mojojojolabs/material2/master/material%20(33).jpg</item>
+    </string-array>
+
+    <string-array name="name_minimal" formatted="false">
+        <item>FCB</item>
+    </string-array>
+
+    <string-array name="url_minimal" formatted="false">
+        <item>https://raw.githubusercontent.com/Mojojojolabs/minimal2/master/minimal%20new%20(1).jpg</item>
+    </string-array>
+
+    <string-array name="name_flat" formatted="false">
+        <item>Apple Colored</item>
+    </string-array>
+
+    <string-array name="url_flat" formatted="false">
+        <item>https://raw.githubusercontent.com/Mojojojolabs/Flat2/master/flat%20(23).jpg</item>
+
+    </string-array>
+
+    <string-array name="name_abstract" formatted="false">
+        <item>Falling In Reverse</item>
+    </string-array>
+
+    <string-array name="url_abstract" formatted="false">
+        <item>https://raw.githubusercontent.com/Mojojojolabs/abstract2/master/abstract%20(10).jpg</item>
+       </string-array>
+
+    <string-array name="name_superhero" formatted="false">
+        <item>Batman</item>
+    </string-array>
+
+    <string-array name="url_superhero" formatted="false">
+        <item>https://raw.githubusercontent.com/Mojojojolabs/DCU/master/batman__batffleck__edition___4_by_mojojojolabs-da5bdph.png</item>
+    </string-array>
+
+    <string-array name="name_photography" formatted="false">
+        <item>Blue Space</item>
+    </string-array>
+
+    <string-array name="url_photography" formatted="false">
+        <item>https://raw.githubusercontent.com/Mojojojolabs/Photography2/master/photography%20(44).jpg</item>
+    </string-array>
+
+    <string-array name="name_misc" formatted="false">
+        <item>Bokeh</item>
+    </string-array>
+
+    <string-array name="url_misc" formatted="false">
+        <item>https://raw.githubusercontent.com/Mojojojolabs/Misc/master/2016%20-%2033.jpg</item>
+    </string-array>
+
+    <!-- Don't edit these, credit is needed for the libraries -->
+    <string name="libraries">Implemented Libraries:</string>
+
+    <array name="namey" formatted="false">
+        <item>MaterialTutorial - Alexandre Piveteau</item>
+        <item>MaterialDrawer - Mike Penz</item>
+        <item>Glide - Bumptech</item>
+    </array>
+
+    <array name="desc" formatted="false">
+        <item>An Android library that provides a simple Material-Designed tutorial.</item>
+        <item>The MaterialDrawer library aims to provide the easiest possible implementation of a navigation drawer for your application.</item>
+        <item>An image loading and caching library for Android focused on smooth scrolling.</item>
+    </array>
+
+    <string-array name="uri" formatted="false">
+        <item>https://github.com/cadialex/MaterialTutorial</item>
+        <item>https://github.com/mikepenz/MaterialDrawer</item>
+        <item>https://github.com/bumptech/glide</item>
+    </string-array>
+
+    <!-- tutorial resources -->
+    <string name="wallpapers_desc">The app is never finished, wallpapers will always be added for the rest of your eternity.</string>
+    <string name="design_title">Precised Design</string>
+    <string name="design_desc">Each wallpaper is tailored pixel by pixel.</string>
+    <string name="favorites_title">Favorites Section</string>
+    <string name="favorites_desc">The favorites section is a place for you to keep all your favorite wallpapers.</string>
+    <string name="community_title">Join the Community</string>
+    <string name="community_desc">Join the google plus community for news about upcoming updates, more wallpapers, and more.....</string>
+    <string name="community_url">https://plus.google.com/communities/104074488451953797559</string>
+    <string name="rate_title">Ratings and Reviews</string>
+    <string name="rate_desc">Reviews are always appreciated. Please provide some feedback about your experience with this app.</string>
+
+    <color name="intro_color">#1f1f1f</color>
+    <color name="wallpapers_color">#009688</color>
+    <color name="design_color">#212121</color>
+    <color name="favorites_color">#C51162</color>
+    <color name="community_color">#F44336</color>
+    <color name="rate_color">#1A237E</color>
+</resources>
